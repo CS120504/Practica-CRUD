@@ -18,7 +18,7 @@ function validarMatricula(matricula) {
     return /^[A-Za-z0-9]{8}$/.test(matricula);
 }
 
-// Función para validar fecha (actual o futura)
+// Función para validar fecha
 function validarFecha(fecha) {
     const hoy = new Date();
     hoy.setHours(0,0,0,0);
